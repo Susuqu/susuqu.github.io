@@ -159,8 +159,8 @@ h2#contact:before {background-position: right bottom;}
 /* ---------------------------*/
 /*---RECOMMENDATIONS STUFF---*/
 /* -------------------------*/
-ul#recommends li {margin: 0 0 30px 0; clear: both;}
-ul#recommends li > h3 {background: #fafafa; color: #ccc; padding-left: 5px; line-height: 25px; margin:0 0 30px -5px;}
+ul#publications li {margin: 0 0 30px 0; clear: both;}
+ul#publications li > h3 {background: #fafafa; color: #ccc; padding-left: 5px; line-height: 25px; margin:0 0 30px -5px;}
 
 /* -------------------------*/
 /*---AS SEEN ON STUFF------*/
@@ -265,19 +265,19 @@ li.s10 {width: 7.714285714285714%;}
 /* ------------------------*/
 ul#jobs,
 ul#schools,
-ul#recommends,
+ul#publications,
 ul#seenOn {margin: 0; list-style: none;}
 
 ul#jobs li,
 ul#schools li,
-ul#recommends li {margin: 0 0 20px 0; clear: both;}
+ul#publications li {margin: 0 0 20px 0; clear: both;}
 
 ul#jobs li .details,
 ul#schools li .details,
-ul#recommends li .details {float: left; width: 40%}
+ul#publications li .details {float: left; width: 40%}
 ul#jobs li p,
 ul#schools li > p,
-ul#recommends li > p {float: right; width: 57%; margin-bottom: 25px;}
+ul#publications li > p {float: right; width: 57%; margin-bottom: 25px;}
 
 .details h5 {font-style: italic;}
 
@@ -316,10 +316,10 @@ body.respond ul#seenOn li img {width: 96%; height: auto; padding: 2%;}
 
 body.respond ul#jobs li .details,
 body.respond ul#schools li .details,
-body.respond ul#recommends li .details {float: none; width: 100%}
+body.respond ul#publications li .details {float: none; width: 100%}
 body.respond ul#jobs li p,
 body.respond ul#schools li > p,
-body.respond ul#recommends li > p {float: none; width: 100%; margin-bottom: 50px; margin-top: 10px;}
+body.respond ul#publications li > p {float: none; width: 100%; margin-bottom: 50px; margin-top: 10px;}
 
 body.respond #contactInfo,
 body.respond #emailMessage {float: none; width: 100%;}
